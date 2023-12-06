@@ -1,0 +1,424 @@
+
+.picture_menu {
+    width: 100%;
+    height: 275px;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: 0%;
+}
+
+.title_menu{
+    width: 100%;
+    height: 43px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+
+    gap: 14px;
+    position: absolute;
+
+    margin-top: -46px;
+    background: #F6F6F6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: var(--Black, #101010);
+    font-family: Shrikhand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+.menu_column {
+    width: 100%;
+    
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background:$second-color;
+
+    .entries_menu {
+        width:90%;
+        height:270px;
+            
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;  
+    }
+
+    .entries_title {
+        display: flex;
+        width: 41px;
+        height: 27px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        border-bottom: 4px solid;
+        border-color: #99E2D0;;
+
+    }
+
+    .entries_card {
+        
+        width: 100%;
+        height: 69px;
+        padding-left: 10px;
+        align-items:flex-end;
+        
+
+        border-radius: 15.043px;
+        background: var(--White, #FFF);
+        box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.10);
+
+        .entries_card--text {
+        width:auto;
+        height: 21px;
+        flex-shrink: 0;
+        align-self: stretch;
+
+        
+        color: #000;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 1000;
+        line-height: normal;
+        }
+
+        .entry_card--price {
+            width:18px;
+            height:18px;
+            
+
+
+
+        color: #353535;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 15.043px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+
+        .entries_card--secondtext {
+            width: auto;
+            height: 36px;
+            flex-shrink: 0;
+            align-self: stretch;
+
+            display: flex;
+            justify-content: space-between;
+
+            padding-right: 10px;
+            padding-top: 20px;
+
+            color: #000;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-family: Roboto;
+            font-size: 14.043px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+    }
+
+    .flat_menu {
+        width:90%;
+        height:327px;
+            
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;  
+    }
+
+    .flat_title {
+        display: flex;
+        width: 41px;
+        height: 27px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        border-bottom: 4px solid;
+        border-color: #99E2D0;;
+
+    }
+
+    .flat_card {
+        
+        width: 100%;
+        height: 69px;
+        padding-left: 10px;
+        
+
+        border-radius: 15.043px;
+        background: var(--White, #FFF);
+        box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.10);
+
+        .flat_card--text {
+        width:auto;
+        height: 21px;
+        flex-shrink: 0;
+        align-self: stretch;
+
+        
+        color: #000;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 1000;
+        line-height: normal;
+        }
+
+        .flat_card--price {
+            width:18px;
+            height:18px;
+
+            padding-left: 273px;
+
+
+        color: #353535;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 15.043px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+
+        .flat_card--secondtext {
+        width: auto;
+        height: 36px;
+        flex-shrink: 0;
+        align-self: stretch;
+
+        display: flex;
+        justify-content: space-between;
+
+        padding-right: 10px;
+        padding-top: 20px;
+
+        color: #000;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-family: Roboto;
+        font-size: 14.043px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        }
+    }
+
+    
+    
+        .desserts_menu {
+            width:90%;
+            
+                
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 40px;  
+        }
+    
+        .desserts_title {
+            display: flex;
+            width: 41px;
+            height: 27px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+    
+            border-bottom: 4px solid;
+            border-color: #99E2D0;;
+    
+        }
+    
+        .desserts_card {
+            
+            width: 100%;
+            height: 69px;
+            padding-left: 10px;
+            
+            align-items: center;
+        
+            border-radius: 15.043px;
+            background: var(--White, #FFF);
+            box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.10);
+        
+            .desserts_card--text {
+            width:auto;
+            height: 21px;
+            flex-shrink: 0;
+            align-self: stretch;
+        
+            
+            color: #000;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 1000;
+            line-height: normal;
+            }
+        
+            .desserts_card--price {
+                width:18px;
+                height:18px;
+        
+                padding-left: 273px;
+        
+        
+            color: #353535;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 15.043px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            }
+        
+            .desserts_card--secondtext {
+            width: auto;
+            height: 36px;
+            flex-shrink: 0;
+            align-self: stretch;
+
+            display: flex;
+            justify-content: space-between;
+
+            padding-right: 10px;
+            padding-top: 20px;
+
+            color: #000;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-family: Roboto;
+            font-size: 14.043px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            }
+        }
+    
+    
+}
+
+.order_button {
+    width: 186px;
+    height: 50px;
+    margin-bottom: 40px;
+    flex-shrink: 0;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    margin-left: -5%;
+    
+    
+    border-radius: 25px;
+    background: $search-button-gradient;
+
+    
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+
+    .order_button div:hover {
+        background:$main-color;
+    }
+
+    .order_buttontext {
+        width: auto;
+        height: 24px;
+        text-align: center;
+        
+        color: $main-color;
+    
+    
+    
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    
+        
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    @keyframes slideInLeft {
+        from {
+            transform:translateX(-300px);
+        }
+        to {
+            transform:translateX(0);
+        }
+        }
+        
+
+    .menu_column {
+        width: 58%;
+        display: inline-flex;
+        align-items: center;
+        gap: 40px;
+        margin-left: 379px;
+        background: $second-color;
+
+        animation-name : slideInLeft;
+        animation-duration:1s;
+        animation-timing-function:ease-in;
+        animation-delay:0s;
+        animation-iteration-count:1;
+        animation-direction:normal;
+        animation-fill-mode:none;
+
+transform: translateX(-150px);
+
+        .menu_column .entries_menu {
+            width: 72%;
+            height: 270px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .title_menu {
+            width: 58%;
+            height: 48px;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            gap: 14px;
+            position: absolute;
+            margin-top: -46px;
+            background: #F6F6F6;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            color: var(--Black, #101010);
+            font-family: Shrikhand;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+
+}
+

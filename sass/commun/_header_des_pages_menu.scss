@@ -1,0 +1,37 @@
+
+.main-container-menu {
+    width: 100%;
+    max-width:1440px;
+    height: 1590px;
+    background-color: $main-color;
+}
+.header_menu {
+    display: flex;
+    flex-direction: row;
+    width: 295px;
+    height: 63px;
+    padding: 14px 89px 13px 0px;
+    align-items: center;
+    gap: 42px;
+
+    .header_icon_goback {
+    width: 30px;
+    height: 30px;
+    color:$basic-color;
+    }
+
+    .header_logo_menu {
+    display: flex;
+    width: 159px;
+    height: 36px;
+    padding: 0px 19px 0px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    }
+
+}
+
+
+
+
