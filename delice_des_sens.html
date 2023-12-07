@@ -17,21 +17,24 @@
 <body>
     <div class="main-container-menu">
         <header class="header_menu">
-            <a href="http://127.0.0.1:5500/accueil.html">
+            <a href="http://127.0.0.1:5500/index.html">
                 <i class="header_icon_goback fa-sharp fa-solid fa-arrow-left fa-lg"></i>
             </a>
+
+            
             <img class="header_logo_menu" src="./Logo/ohmyfood.png" alt="logo OhMyFood">
         </header>
 
         <main>
 
-            <img class="picture_menu" src="./assets/Images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-                alt="Photo plat le délice des sens">
+            <img class="picture_menu" src="./restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                alt="Photo plat Le délice des sens">
 
-            <h1 class="title_menu">Le délice des sens <i class="fa-regular fa-heart"></i></h1>
+            
 
 
-            <section class="menu_column_entries">
+            <section class="menu_column">
+                <h1 class="title_menu">Le délice des sens<i class="fa-regular fa-heart"></i></h1>
 
 
                 <div class="entries_menu">
@@ -39,20 +42,17 @@
 
                     <div class="entries_card">
                         <p class="entries_card--text">Tartare de thon</p>
-                        <p class="entry_card--price">25€</p>
-                        <p class="entries_card--secondtext">Assaisonné au yuzu</p>
+                        <p class="entries_card--secondtext">Assaisonné au yuzu<span>25€</span></p>
                     </div>
 
                     <div class="entries_card">
-                        <p class="entries_card--text">Bouchée de homard croustillant </p>
-                        <p class="entry_card--price">35€</p>
-                        <p class="entries_card--secondtext">Et sa farandole de petits légumes</p>
+                        <p class="entries_card--text">Bouchée de homard croustillant</p>
+                        <p class="entries_card--secondtext">Et sa farandole de petits légumes<span>35€</span></p>
                     </div>
 
                     <div class="entries_card">
-                        <p class="entries_card--text">Poulet rôti aux herbes de Provence </p>
-                        <p class="entry_card--price">40€</p>
-                        <p class="entries_card--secondtext">Et sa crème de truffe</p>
+                        <p class="entries_card--text">Poulet rôti aux herbes de Provence</p>
+                        <p class="entries_card--secondtext">Et sa crème de truffe<span>20€</span></p>
                     </div>
 
                 </div>
@@ -62,20 +62,17 @@
 
                     <div class="flat_card">
                         <p class="flat_card--text">Poulet rôti aux herbes de Provence</p>
-                        <p class="flat_card--price">40€</p>
-                        <p class="flat_card--secondtext">Et sa crème de truffe</p>
+                        <p class="flat_card--secondtext">Et sa crème de truffe<span>40€</span></p>
                     </div>
 
                     <div class="flat_card">
-                        <p class="flat_card--text">Langouste rôtie </p>
-                        <p class="flat_card--price">35€</p>
-                        <p class="flat_card--secondtext">Et ses légumes de saison</p>
+                        <p class="flat_card--text">Langouste rôtie</p>
+                        <p class="flat_card--secondtext">Et ses légumes de saison<span>35€</span></p>
                     </div>
 
                     <div class="flat_card">
                         <p class="flat_card--text">Côte de bœuf Angus</p>
-                        <p class="flat_card--price">44€</p>
-                        <p class="flat_card--secondtext">Et sa purée de panais</p>
+                        <p class="flat_card--secondtext">Et sa purée de panais<span>44€</span></p>
                     </div>
 
                 </div>
@@ -85,21 +82,24 @@
 
                     <div class="desserts_card">
                         <p class="desserts_card--text">Farandole de desserts</p>
-                        <p class="desserts_card--price">18€</p>
-                        <p class="desserts_card--secondtext">Du chef</p>
+                        <p class="desserts_card--secondtext">Du chef<span>18€</span></p>
                     </div>
 
                     <div class="desserts_card">
-                        <p class="desserts_card--text">Crème brulée </p>
-                        <p class="desserts_card--price">22€</p>
-                        <p class="desserts_card--secondtext">Revisitée</p>
+                        <p class="desserts_card--text">Crème brulée</p>
+                        <p class="desserts_card--secondtext">Revisitée<span>22€</span></p>
                     </div>
 
                     <div class="desserts_card">
-                        <p class="desserts_card--text">Tiramisu </p>
-                        <p class="desserts_card--price">23€</p>
-                        <p class="desserts_card--secondtext">À la noisette</p>
+                        <p class="desserts_card--text">Tiramisu</p>
+                        <p class="desserts_card--secondtext">À la noisette<span>23€</span></p>
                     </div>
+
+                </div>
+
+                <div class="order_button">
+
+                    <span class="order_buttontext">Commander</span>
 
                 </div>
 
@@ -111,14 +111,17 @@
             <div class="footercontent">
                 <h2 class="footer_title">ohmyfood</h2>
 
-                <p><i class="settingsiconfooter fa-solid fa-utensils"></i>Proposer un restaurant
-                </p>
-
-                <p><i class="settingsiconfooter fa-solid fa-handshake-angle"></i>Devenir partenaire
-                </p>
-
-                <p>Mention légales</p>
-                <p>Contact</p>
+                <div class="footer__content_links">
+                    <p class="footer_link"><i class="settingsiconfooter fa-solid fa-utensils"></i>Proposer un restaurant
+                    </p>
+    
+                    <p class="footer_link"><i class="settingsiconfooter fa-solid fa-handshake-angle"></i>Devenir partenaire
+                    </p>
+    
+                    <p class="footer_link">Mention légales</p>
+                    <p class="footer_link">Contact</p>
+                </div>
+                
             </div>
         </footer>
 
