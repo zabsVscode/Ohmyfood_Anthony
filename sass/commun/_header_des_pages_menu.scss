@@ -5,6 +5,20 @@
     height: 1590px;
     background-color: $main-color;
 }
+
+.coloricongoback {
+    color:#353535;
+}
+
+.header_icon_goback {
+    display: block;
+    position: absolute;
+    width: 29px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
 .header_menu {
     display: flex;
     flex-direction: row;
@@ -14,15 +28,10 @@
     align-items: center;
     gap: 42px;
 
-    .header_icon_goback {
-    width: 30px;
-    height: 30px;
-    color:$basic-color;
-    }
+    
 
     .header_logo_menu {
     display: flex;
-    width: 159px;
     height: 36px;
     padding: 0px 19px 0px 16px;
     justify-content: center;

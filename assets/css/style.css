@@ -58,8 +58,6 @@ table {
 
 .loader-container {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.7);
@@ -71,20 +69,15 @@ table {
 
 .loader {
   border: 8px solid #f3f3f3;
-  border-top: 8px solid #9356DC;
-  border-radius: 50%;
+  border: 5px solid #9356DC;
   width: 50px;
   height: 50px;
-  animation-name: spin;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
 }
 
-@keyframes spin {
+@keyframes rotation {
   0% {
     transform: rotate(0deg);
   }
@@ -508,23 +501,30 @@ table {
   background-color: #FFFFFF;
 }
 
+.coloricongoback {
+  color: #353535;
+}
+
+.header_icon_goback {
+  display: block;
+  position: absolute;
+  width: 29px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
 .header_menu {
   display: flex;
   flex-direction: row;
-  width: 295px;
+  width: 93%;
   height: 63px;
   padding: 14px 89px 13px 0px;
   align-items: center;
   gap: 42px;
 }
-.header_menu .header_icon_goback {
-  width: 30px;
-  height: 30px;
-  color: #000;
-}
 .header_menu .header_logo_menu {
   display: flex;
-  width: 159px;
   height: 36px;
   padding: 0px 19px 0px 16px;
   justify-content: center;
