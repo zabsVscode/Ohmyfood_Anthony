@@ -231,6 +231,7 @@
                 border-top-right-radius: 20px;
                 border-top-left-radius: 20px;
                 
+                width: 100%;
                 height: 207px;
             
                 position: relative;
@@ -319,33 +320,25 @@
         }
     
         .settingsheart {
-            width: 22px;
+            width: 91%;
             height: 21px;
-    
-            position:absolute;
-            top: 223px;
-            left: 282px;
-    
+            position: absolute;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
             font-size: larger;
-
         }
 
-        .toggle-heart {
-            
-            
+        .fontsizeheart {
+            font-size:25px;
+            width:22px;
+            height:21px;
+            display:block;
         }
 
-        input[type="checkbox"] {
-            display:none;
-            }
-            
-        input[type="checkbox"]:checked + .toggle-heart {
-            color: $color-button-icon;
-            font-weight:0;
-            }
-
-        
-    
+        .settingsheart:hover {
+            color:$color-button-icon;
+        }
     
  }
 }

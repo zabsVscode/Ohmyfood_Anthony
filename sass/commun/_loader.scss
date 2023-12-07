@@ -14,11 +14,11 @@
   }
   
   .loader {
-    border: 8px solid #f3f3f3;
-    border: 5px solid $color-circle-filter;
-    width: 50px;
-    height: 50px;
-
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: $color-circle-filter;
+    border-radius: 50%;
     display: inline-block;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
