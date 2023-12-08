@@ -642,6 +642,26 @@ table {
   font-weight: 800;
   line-height: normal;
 }
+.menu_column .entries_card .icon {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 84px;
+  height: 38px;
+  position: relative;
+  left: 10px;
+  bottom: -26px;
+  top: -41px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.menu_column .entries_card .icon:hover {
+  opacity: 1;
+  width: 15%;
+  background: #99E2D0;
+  border: 15px solid #99E2D0;
+}
 .menu_column .flat_menu {
   width: 90%;
   height: 327px;
