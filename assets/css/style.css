@@ -60,7 +60,7 @@ table {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.7);
+  /*background-color: rgba(255, 255, 255, 0.7);*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,12 +70,13 @@ table {
 .loader {
   width: 48px;
   height: 48px;
+  background-color: rgba(255, 255, 255, 0.7);
   border: 5px solid #FFF;
   border-bottom-color: #9356DC;
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;
-  animation: rotation 1s linear infinite;
+  animation: rotation 1s linear infinite, fadeOut 1s forwards 3s;
 }
 
 @keyframes rotation {
@@ -84,6 +85,15 @@ table {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    display: none;
   }
 }
 .main-container {
@@ -391,7 +401,6 @@ table {
     width: 100%;
     height: auto;
     flex-wrap: wrap;
-    gap: 127px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -399,14 +408,13 @@ table {
     align-self: stretch;
   }
   .restaurants .restaurants__column .restaurants__column--card {
-    width: 30%;
+    width: 45%;
     height: 308px;
     display: flex;
     flex-direction: column;
-    flex: 1 0 0;
   }
   .restaurants .restaurants__column .restaurants__column--card .restaurants__column--img {
-    width: 548.647px;
+    width: 100%;
     height: 231px;
     align-self: stretch;
     display: flex;

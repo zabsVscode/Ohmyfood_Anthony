@@ -375,7 +375,6 @@
             width:100%;
             height: auto;
             flex-wrap: wrap;
-            gap:127px;
 
             display: flex;
             flex-direction: row;
@@ -385,15 +384,15 @@
             align-self: stretch;
 
         .restaurants__column--card {
-            width:30%;
+            width:45%;
             height: 308px;
 
             display: flex;
             flex-direction: column;
-            flex: 1 0 0;
+            
     
             .restaurants__column--img {
-                width: 548.647px;
+                width: 100%;
                 height: 231px;
                 
                 
