@@ -506,7 +506,6 @@ table {
 }
 .main-container-menu {
   width: 100%;
-  max-width: 1440px;
   height: 1590px;
   background-color: #FFFFFF;
 }
@@ -554,7 +553,7 @@ table {
 
 .title_menu {
   width: 100%;
-  height: 43px;
+  height: 47px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
@@ -582,7 +581,7 @@ table {
 }
 .menu_column .entries_menu {
   width: 90%;
-  height: 270px;
+  height: 354px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -814,7 +813,8 @@ table {
     }
   }
   .menu_column {
-    width: 58%;
+    width: 77%;
+    height: 1162px;
     display: inline-flex;
     align-items: center;
     gap: 40px;
@@ -829,9 +829,9 @@ table {
     animation-fill-mode: none;
     transform: translateX(-150px);
   }
-  .menu_column .menu_column .entries_menu {
-    width: 72%;
-    height: 270px;
+  .menu_column .entries_menu {
+    width: 90%;
+    height: 390px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -839,7 +839,7 @@ table {
   }
   .menu_column .title_menu {
     width: 58%;
-    height: 48px;
+    height: 47px;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
@@ -861,11 +861,10 @@ table {
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
-    padding-left: 64px;
     width: 13%;
+    margin-left: 80%;
+    margin-top: -83px;
     position: absolute;
-    top: 3%;
-    left: 78%;
   }
   .menu_column .icon_box .icon_box--price {
     margin-right: 20px;
@@ -887,6 +886,7 @@ table {
     opacity: 1;
     width: 70px;
     height: 75px;
+    z-index: 3;
     background: #99E2D0;
     transform: translateX(-15px);
   }
