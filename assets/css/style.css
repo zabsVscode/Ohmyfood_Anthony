@@ -579,6 +579,9 @@ table {
   gap: 40px;
   background: #F6F6F6;
 }
+.menu_column .icon_box {
+  display: none;
+}
 .menu_column .entries_menu {
   width: 90%;
   height: 354px;
@@ -599,7 +602,7 @@ table {
 }
 .menu_column .entries_card {
   width: 100%;
-  height: 69px;
+  height: 72px;
   padding-left: 10px;
   align-items: flex-end;
   border-radius: 15.043px;
@@ -656,7 +659,7 @@ table {
 }
 .menu_column .flat_card {
   width: 100%;
-  height: 69px;
+  height: 72px;
   padding-left: 10px;
   border-radius: 15.043px;
   background: var(--White, #FFF);
@@ -723,7 +726,7 @@ table {
 }
 .menu_column .desserts_card {
   width: 100%;
-  height: 69px;
+  height: 72px;
   padding-left: 10px;
   align-items: center;
   border-radius: 15.043px;
@@ -814,7 +817,7 @@ table {
   }
   .menu_column {
     width: 77%;
-    height: 1162px;
+    height: 1380px;
     display: inline-flex;
     align-items: center;
     gap: 40px;
@@ -831,11 +834,11 @@ table {
   }
   .menu_column .entries_menu {
     width: 90%;
-    height: 390px;
+    height: 479px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 40px;
   }
   .menu_column .title_menu {
     width: 58%;
@@ -861,9 +864,9 @@ table {
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
-    width: 13%;
+    width: 12%;
     margin-left: 80%;
-    margin-top: -83px;
+    margin-top: -80px;
     position: absolute;
   }
   .menu_column .icon_box .icon_box--price {
