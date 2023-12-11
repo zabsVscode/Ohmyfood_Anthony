@@ -64,7 +64,6 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 2;
 }
 
 .loader {
@@ -305,11 +304,12 @@ table {
   }
   .restaurants .restaurant__column--label-new {
     width: 80px;
-    height: 29px;
+    height: 21px;
     position: absolute;
-    left: 260px;
-    bottom: 250px;
-    top: 66px;
+    display: block;
+    top: 26%;
+    left: 80%;
+    border-radius: 2px;
     border-radius: 2px;
     background: #99E2D0;
     /* Shadow/Badge */
@@ -317,7 +317,7 @@ table {
   }
   .restaurants .new-text {
     position: absolute;
-    width: 61.37px;
+    width: 79.37px;
     color: #008766;
     text-align: center;
     font-family: Roboto;
@@ -621,22 +621,9 @@ table {
   font-weight: 1000;
   line-height: normal;
 }
-.menu_column .entries_card .entry_card--price {
-  width: 18px;
-  height: 18px;
-  color: #353535;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 15.043px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
 .menu_column .entries_card .entries_card--secondtext {
   width: auto;
   height: 36px;
-  flex-shrink: 0;
-  align-self: stretch;
   display: flex;
   justify-content: space-between;
   padding-right: 10px;
@@ -649,26 +636,6 @@ table {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-}
-.menu_column .entries_card .icon {
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  width: 84px;
-  height: 38px;
-  position: relative;
-  left: 10px;
-  bottom: -26px;
-  top: -41px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  display: flex;
-  align-items: center;
-}
-.menu_column .entries_card .icon:hover {
-  opacity: 1;
-  width: 15%;
-  background: #99E2D0;
-  border: 15px solid #99E2D0;
 }
 .menu_column .flat_menu {
   width: 90%;
@@ -725,8 +692,6 @@ table {
 .menu_column .flat_card .flat_card--secondtext {
   width: auto;
   height: 36px;
-  flex-shrink: 0;
-  align-self: stretch;
   display: flex;
   justify-content: space-between;
   padding-right: 10px;
@@ -795,8 +760,8 @@ table {
 .menu_column .desserts_card .desserts_card--secondtext {
   width: auto;
   height: 36px;
-  flex-shrink: 0;
-  align-self: stretch;
+  z-index: 2;
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding-right: 10px;
@@ -890,5 +855,46 @@ table {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+  .menu_column .icon_box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-left: 64px;
+    width: 13%;
+    position: absolute;
+    top: 3%;
+    left: 78%;
+  }
+  .menu_column .icon_box .icon_box--price {
+    margin-right: 20px;
+  }
+  .menu_column .icon {
+    opacity: 0;
+    width: 88px;
+    height: 69px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    color: #F6F6F6;
+    font-size: larger;
+  }
+  .menu_column .icon:hover {
+    opacity: 1;
+    width: 70px;
+    height: 75px;
+    background: #99E2D0;
+    transform: translateX(-15px);
+  }
+  .menu_column .icon_box--price {
+    padding-right: 64px;
+  }
+  .menu_column .entries_card--secondtext .flat_card--secondtext .desserts_card--secondtext {
+    z-index: 2;
+    position: relative;
   }
 }

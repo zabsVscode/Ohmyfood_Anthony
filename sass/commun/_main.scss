@@ -252,11 +252,12 @@
 
     .restaurant__column--label-new {
         width: 80px;
-        height: 29px;
+        height: 21px;
         position: absolute;
-        left:260px;
-        bottom:250px;
-        top:66px;
+        display: block;
+        top: 26%;
+        left: 80%;
+        border-radius: 2px;
         
         
     
@@ -269,7 +270,7 @@
     
     .new-text {
         position: absolute;
-        width: 61.37px;
+        width:  79.37px;
     
         color: #008766;
         text-align: center;

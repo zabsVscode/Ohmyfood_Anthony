@@ -91,27 +91,10 @@
         line-height: normal;
         }
 
-        .entry_card--price {
-            width:18px;
-            height:18px;
-            
-
-
-
-        color: #353535;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 15.043px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        }
-
         .entries_card--secondtext {
             width: auto;
             height: 36px;
-            flex-shrink: 0;
-            align-self: stretch;
+            
 
             display: flex;
             justify-content: space-between;
@@ -129,33 +112,6 @@
             line-height: normal;
         }
 
-        .icon {
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-            width: 84px;
-            height: 38px;
-            position: relative;
-            left: 10px;
-            bottom: -26px;
-            top: -41px;
-
-            border-top-right-radius: 15px;
-            border-bottom-right-radius:15px;
-
-            display:flex;
-            align-items:center;
-            
-            
-        }
-
-        .icon:hover  {
-            opacity: 1;
-            width:15%;
-            
-            
-            background:#99E2D0;
-            border:15px solid #99E2D0;
-        }
     }
 
     .flat_menu {
@@ -226,25 +182,23 @@
         }
 
         .flat_card--secondtext {
-        width: auto;
-        height: 36px;
-        flex-shrink: 0;
-        align-self: stretch;
+            width: auto;
+            height: 36px;
 
-        display: flex;
-        justify-content: space-between;
+            display: flex;
+            justify-content: space-between;
 
-        padding-right: 10px;
-        padding-top: 20px;
+            padding-right: 10px;
+            padding-top: 20px;
 
-        color: #000;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        font-family: Roboto;
-        font-size: 14.043px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
+            color: #000;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-family: Roboto;
+            font-size: 14.043px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
         }
     }
 
@@ -303,10 +257,10 @@
             }
         
             .desserts_card--price {
-                width:18px;
-                height:18px;
+            width:18px;
+            height:18px;
         
-                padding-left: 273px;
+            padding-left: 273px;
         
         
             color: #353535;
@@ -321,8 +275,8 @@
             .desserts_card--secondtext {
             width: auto;
             height: 36px;
-            flex-shrink: 0;
-            align-self: stretch;
+            z-index: 2;
+            position: relative;
 
             display: flex;
             justify-content: space-between;
@@ -340,8 +294,8 @@
             line-height: normal;
             }
         }
-    
-    
+
+
 }
 
 .order_button {
@@ -415,7 +369,7 @@
         animation-direction:normal;
         animation-fill-mode:none;
 
-transform: translateX(-150px);
+        transform: translateX(-150px);
 
         .menu_column .entries_menu {
             width: 72%;
@@ -445,8 +399,73 @@ transform: translateX(-150px);
             font-weight: 400;
             line-height: normal;
         }
+
+        .icon_box {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: flex-end;
+            
+
+            padding-left: 64px;
+            width: 13%;
+            position: absolute;
+            top: 3%;
+            left: 78%;
+
+            
+
+            .icon_box--price {
+                margin-right: 20px;
+            }
+        }
+
+
+        .icon {
+            opacity: 0;
+            width: 88px;
+            height: 69px;
+            
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            transition: transform 0.3s ease; 
+
+            color: $second-color;
+            font-size: larger;
+
+        }
+
+        .icon:hover  {
+            opacity: 1;
+            width: 70px;
+            height: 75px;
+
+            background:#99E2D0; 
+
+            transform: translateX(-15px);
+            
+        }
+
+        .icon_box--price {
+            padding-right:64px;
+        }
+
+        .entries_card--secondtext .flat_card--secondtext .desserts_card--secondtext {
+            z-index:2;
+            position: relative;
+        }
+
     }
 
+    
+    }
 
-}
+    
+
+
+
 
