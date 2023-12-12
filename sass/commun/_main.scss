@@ -1,10 +1,7 @@
-@media (min-width: 320px) {
+
 .search {
-    width:100%;
-        height:auto;
-    
         padding-top:30px;
-        padding-bottom:30px;
+        padding-bottom:62px;
         
         display:flex;
         align-items:center;
@@ -13,8 +10,8 @@
         background-color: $second-color;
 
         .search_title {
-            width: auto;
-            height: auto;
+            width: 275px;
+            height: 68px;
             padding-top: 6px;
             padding-left: 30px;
             padding-right:30px;
@@ -30,9 +27,8 @@
         }
 
         .search_text {
-            width: auto;
-            height: auto;
-            padding-top: 12px;
+            width: 315px;
+            height: 46px;
             
         
             color: $color-searchtext;
@@ -86,16 +82,17 @@
  }
 
  .fonctionnement {
-    width: 100%;
-    height: 364px;
+    width: 357px;
+    height: 440px;
     
     display: flex;
     
     
     padding-top:10%;
+    
 
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 25px;
     
 
@@ -104,7 +101,7 @@
     .fonctionnement_title {
         width: 275px;
         height: 31px;
-        padding-left: 5%;
+       
 
         color: #000;
 
@@ -118,13 +115,12 @@
     }
 
     .fonctionnement__filter {
-        width: 86%;
-        height: auto;
         gap:21px;
-        padding-left: 8%;
+        
         
         display:flex;
         flex-direction: column;
+        
     }
 
     .fonctionnement__filter--settings {
@@ -132,12 +128,15 @@
         
         align-items:center;
     
+        width: 322.486px;
         height: 72.379px;
+        flex-shrink: 0;
+        
         
     
         gap:15px;
     
-        padding-left:23px;
+        
     
         border-radius: 20px;
         background-color: $second-color;
@@ -150,7 +149,7 @@
         width: 24px;
         height: 24px;
         z-index:1;
-        margin-left: -35px;
+        margin-left: -11px;
     
         display:flex;
         justify-content: center;
@@ -188,13 +187,12 @@
 
 
  .restaurants {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 1154px;
 
-    margin-top: 12%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 15%;
+
+    background-color:$second-color;
+    
 
     .restaurants__title {
         width: 275px;
@@ -212,18 +210,17 @@
     }
 
     .restaurants__column {
-        width: auto;
         display:flex;
         flex-direction: column;
-        gap: 29px;
+        gap: 36px;
 
         .restaurants__column--card {
             border-radius: 15px;
             background: $main-color;
             box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
         
-            width: auto;
-            height: 270px;
+            width: 326px;
+            height: 227px;
             flex-shrink: 0;
             position: relative;
     
@@ -231,12 +228,10 @@
                 border-top-right-radius: 20px;
                 border-top-left-radius: 20px;
                 
-                width: 100%;
-                height: 207px;
+                width: 326px;
+                height: 142px;
             
                 position: relative;
-                flex-shrink: 0;
-                align-self: stretch;
         
                 object-fit: cover;
                 object-position:0%;
@@ -255,8 +250,8 @@
         height: 21px;
         position: absolute;
         display: block;
-        top: 26%;
-        left: 80%;
+        top: 13%;
+        left: 76%;
         border-radius: 2px;
         
         
@@ -270,7 +265,6 @@
     
     .new-text {
         position: absolute;
-        width:  79.37px;
     
         color: #008766;
         text-align: center;
@@ -282,10 +276,6 @@
     }
 
     .restaurants__column--text {
-        width:auto;
-        height:auto;
-
-
         display: flex;
         flex-direction: column;
         gap:5px;
@@ -337,12 +327,13 @@
             display:block;
         }
 
-        .settingsheart:hover {
+        .settingsheart:hover .fa-regular {
             color:$color-button-icon;
+            font-weight:900;
         }
     
  }
-}
+
 
 
  @media (min-width: 1024px) {
