@@ -105,6 +105,8 @@ header {
 }
 header .header_logo {
   height: 36px;
+  padding-bottom: 13px;
+  padding-top: 14px;
 }
 header .header_location {
   display: flex;
@@ -116,10 +118,11 @@ header .header_location {
   background: #EAEAEA;
 }
 header .header_location .header_icon-location {
-  width: 20px;
+  width: 12px;
   height: 16px;
   flex-shrink: 0;
   font-size: 21px;
+  color: #353535;
 }
 
 .search {
@@ -167,6 +170,11 @@ header .header_location .header_icon-location {
   border-radius: 25px;
   background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.search .search_button:hover {
+  box-shadow: white;
+  opacity: 0.8;
+  cursor: pointer;
 }
 .search .search_buttontext {
   width: 169px;

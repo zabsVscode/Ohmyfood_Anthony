@@ -11,6 +11,8 @@ header {
 
     .header_logo {
         height:36px;
+        padding-bottom: 13px;
+        padding-top: 14px;
     }
 
     .header_location {
@@ -26,10 +28,11 @@ header {
 
 
         .header_icon-location {
-            width: 20px;
+            width: 12px;
             height: 16px;
             flex-shrink: 0;
             font-size:21px;   
+            color:#353535;
         }
     
     }
