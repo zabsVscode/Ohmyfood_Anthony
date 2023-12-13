@@ -1,7 +1,7 @@
 
 .footer {
     width:auto;
-    height:173px;
+    height:187px;
 
     
 
@@ -24,9 +24,11 @@
     
         color: var(--White, #FFF);
 
-        .footer_link {
+        .footer_tab {
             display: flex; 
             height: 20px; 
+            color: $main-color;
+            text-decoration: none;
         }
 
         .footer_title {
