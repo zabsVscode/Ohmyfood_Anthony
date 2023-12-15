@@ -289,15 +289,15 @@ header .header_location .header_icon-location {
   border-radius: 15px;
   background: #FFFFFF;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
-  width: 326px;
+  width: 96%;
   height: 227px;
   flex-shrink: 0;
   position: relative;
 }
 .restaurants .restaurants__column .restaurants__column--card .restaurants__column--img {
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  width: 326px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
   height: 142px;
   position: relative;
   -o-object-fit: cover;
@@ -402,7 +402,6 @@ header .header_location .header_icon-location {
     align-self: stretch;
   }
   .fonctionnement .fonctionnement__filter {
-    display: flex;
     flex-direction: row;
   }
   .fonctionnement .fonctionnement__filter .fonctionnement__filter--settings {
@@ -554,21 +553,20 @@ header .header_location .header_icon-location {
   position: absolute;
   width: 29px;
   height: 30px;
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 17px;
+  margin-left: 13px;
 }
 
 .header_menu {
   display: flex;
   flex-direction: row;
-  width: 93%;
   height: 63px;
-  padding: 14px 89px 13px 0px;
   align-items: center;
   gap: 42px;
 }
 .header_menu .header_logo_menu {
   display: flex;
+  width: 197px;
   height: 36px;
   padding: 0px 19px 0px 16px;
   justify-content: center;
@@ -619,7 +617,7 @@ header .header_location .header_icon-location {
 }
 .menu_column .entries_menu {
   width: 90%;
-  height: 354px;
+  height: 270px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -676,11 +674,11 @@ header .header_location .header_icon-location {
 }
 .menu_column .flat_menu {
   width: 90%;
-  height: 327px;
+  height: 270px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 40px;
+  gap: 12px;
 }
 .menu_column .flat_title {
   display: flex;
@@ -744,10 +742,11 @@ header .header_location .header_icon-location {
 }
 .menu_column .desserts_menu {
   width: 90%;
+  height: 270px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 40px;
+  gap: 12px;
 }
 .menu_column .desserts_title {
   display: flex;
@@ -876,7 +875,7 @@ header .header_location .header_icon-location {
     gap: 40px;
   }
   .menu_column .title_menu {
-    width: 58%;
+    width: 100%;
     height: 47px;
     flex-shrink: 0;
     display: flex;
