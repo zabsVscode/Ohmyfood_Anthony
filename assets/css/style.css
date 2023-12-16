@@ -364,6 +364,7 @@ header .header_location .header_icon-location {
   align-items: flex-end;
   justify-content: flex-end;
   font-size: larger;
+  cursor: pointer;
 }
 .restaurants .fontsizeheart {
   font-size: 25px;
@@ -371,9 +372,51 @@ header .header_location .header_icon-location {
   height: 21px;
   display: block;
 }
+@keyframes colorheart {
+  0% {
+    font-weight: 900;
+  }
+  10% {
+    font-weight: 800;
+  }
+  20% {
+    font-weight: 700;
+  }
+  30% {
+    font-weight: 600;
+  }
+  40% {
+    font-weight: 500;
+  }
+  50% {
+    font-weight: 400;
+  }
+  60% {
+    font-weight: 300;
+  }
+  70% {
+    font-weight: 200;
+  }
+  80% {
+    font-weight: 100;
+  }
+  90% {
+    font-weight: 100;
+  }
+  100% {
+    font-weight: 100;
+    color: black;
+  }
+}
 .restaurants .settingsheart:hover .fa-regular {
   color: #FF69B4;
   font-weight: 900;
+  animation-name: colorheart;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
 }
 
 @media (min-width: 1024px) {
