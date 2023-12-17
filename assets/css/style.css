@@ -946,13 +946,10 @@ header .header_location .header_icon-location {
     margin-top: -80px;
     position: absolute;
   }
-  .menu_column .icon_box .icon_box--price {
-    margin-right: 20px;
-  }
   .menu_column .icon {
     opacity: 0;
-    width: 88px;
-    height: 69px;
+    width: 100px;
+    height: 62px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     display: flex;
@@ -968,10 +965,15 @@ header .header_location .header_icon-location {
     height: 75px;
     z-index: 3;
     background: #99E2D0;
-    transform: translateX(-15px);
+    transform: translateX(0px);
   }
   .menu_column .icon_box--price {
-    padding-right: 64px;
+    width: 186px;
+    padding-bottom: 15px;
+  }
+  .menu_column .icon_box--price:hover {
+    gap: 25px;
+    transform: translateX(-87px);
   }
   .menu_column .entries_card--secondtext .flat_card--secondtext .desserts_card--secondtext {
     z-index: 2;

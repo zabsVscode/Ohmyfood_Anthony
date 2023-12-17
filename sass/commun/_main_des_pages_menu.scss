@@ -417,20 +417,13 @@
             margin-left: 80%;
             margin-top: -80px;
             position: absolute;
-            
-
-            
-
-            .icon_box--price {
-                margin-right: 20px;
-            }
         }
 
 
         .icon {
             opacity: 0;
-            width: 88px;
-            height: 69px;
+            width: 100px;
+            height: 62px;
             
             border-top-right-radius: 15px;
             border-bottom-right-radius: 15px;
@@ -445,7 +438,7 @@
 
         }
 
-        .icon:hover  {
+        .icon:hover {
             opacity: 1;
             width: 70px;
             height: 75px;
@@ -453,12 +446,18 @@
 
             background:#99E2D0; 
 
-            transform: translateX(-15px);
+            transform: translateX(-0px);
             
         }
 
         .icon_box--price {
-            padding-right:64px;
+            width: 186px;
+            padding-bottom:15px;
+        }
+
+        .icon_box--price:hover {
+            gap:25px;
+            transform: translateX(-87px);
         }
 
         .entries_card--secondtext .flat_card--secondtext .desserts_card--secondtext {
