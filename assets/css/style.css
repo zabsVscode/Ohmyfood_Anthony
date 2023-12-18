@@ -415,8 +415,8 @@ header .header_location .header_icon-location {
   color: #FF69B4;
   font-weight: 900;
   animation-name: colorheart;
-  animation-duration: 5s;
-  animation-delay: 3s;
+  animation-duration: 3s;
+  animation-delay: 0s;
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-fill-mode: none;
@@ -622,8 +622,8 @@ header .header_location .header_icon-location {
 }
 .header_menu .header_logo_menu {
   display: flex;
-  width: 197px;
-  height: 36px;
+  width: 167px;
+  height: 27px;
   padding: 0px 19px 0px 16px;
   justify-content: center;
   align-items: center;
@@ -977,13 +977,13 @@ header .header_location .header_icon-location {
     align-items: flex-end;
     justify-content: flex-end;
     width: 12%;
-    margin-left: 58%;
+    gap: 12px;
+    margin-left: 54.5%;
     margin-top: -80px;
     position: absolute;
   }
   .menu_column .icon {
     opacity: 0;
-    width: 100px;
     height: 62px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -998,17 +998,14 @@ header .header_location .header_icon-location {
     opacity: 1;
     width: 70px;
     height: 75px;
+    gap: 12px;
     z-index: 3;
     background: #99E2D0;
     transform: translateX(0px);
   }
   .menu_column .icon_box--price {
-    width: 186px;
-    padding-bottom: 15px;
-  }
-  .menu_column .icon_box--price:hover {
-    gap: 25px;
-    transform: translateX(-87px);
+    margin-bottom: 6px;
+    margin-right: -6px;
   }
   .menu_column .entries_card--secondtext .flat_card--secondtext .desserts_card--secondtext {
     z-index: 2;
