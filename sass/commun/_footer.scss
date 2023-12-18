@@ -12,16 +12,30 @@
     background-color: $color-searchtext;
     gap:16px;
 
+    .footer_title {
+        display: flex; 
+        width: 169px; 
+        height: 27px; 
+        margin-top: 15px; 
+        padding-right: 1.418px; 
+        justify-content: center; 
+        align-items: center; 
+        color: var(--White, #FFF); 
+
+        font-family: Shrikhand, sans-serif; 
+        font-size: 18px; 
+        font-style: normal; 
+        font-weight: 400; 
+        line-height: normal;
+    }
+
     .footercontent {
-        width:190px;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        margin-left: 8%;
-        margin-top: 5%;
-    
+        width: 190px; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: flex-start; 
+        gap: 10px; 
+        margin-left: 32px; 
         color: var(--White, #FFF);
 
         .footer_tab {
@@ -31,19 +45,7 @@
             text-decoration: none;
         }
 
-        .footer_title {
-            width: 137.582px;
-            height: 34px;
-            flex-shrink: 0;
-        
-            color: var(--White, #FFF);
-            font-family: 'Shrikhand', serif;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            
-        }
+       
 
         .settingsiconfooter {
             width: 25px;
@@ -63,16 +65,11 @@
         width: auto;
         height: 70px;
         padding: 30px 25px;
-        justify-content: flex-end;
+        flex-direction:row-reverse;
         align-items: flex-end;
         flex-shrink: 0;
-    
-        .footercontent {
-        flex-direction:row-reverse;
-        width: auto;
-            
-    
-            .footer_title {
+
+        .footer_title {
             width: 137.582px;
             height: 27px;
             flex-shrink: 0;
@@ -84,14 +81,24 @@
             font-weight: 400;
             line-height: normal;
             }
+    
+        .footercontent {
+        flex-direction:row;
+        width: auto;
 
-            .footer__content_links {
+
+            .width168px {
+                width:168px;
+            }
+        
+
+            .footercontent{
             display:flex;
             flex-direction: row;
             gap: 15px;
             }
 
-            .footer_link {
+            .footer_tab {
                 display: flex; 
                 height: 20px; 
                 gap:11px;
