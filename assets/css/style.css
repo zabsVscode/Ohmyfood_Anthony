@@ -309,12 +309,14 @@ header .header_location .header_icon-location {
      object-position: 0%;
 }
 .restaurants .restaurant__column--label-new {
-  width: 68px;
-  height: 21px;
+  width: 80px;
+  height: 29px;
   position: absolute;
   display: block;
   top: 15%;
   left: 76%;
+  justify-content: center;
+  align-items: center;
   border-radius: 2px;
   border-radius: 2px;
   background: #99E2D0;
@@ -487,18 +489,20 @@ header .header_location .header_icon-location {
     align-self: stretch;
   }
   .restaurants .restaurants__column .restaurant__column--label-new {
-    top: 18%;
-    left: 77%;
+    top: 13px;
+    left: 392.41px;
   }
   .restaurants .restaurants__column .restaurants__column--card {
-    width: 45%;
-    height: 288px;
+    width: 490px;
+    height: 251px;
     display: flex;
     flex-direction: column;
   }
   .restaurants .restaurants__column .restaurants__column--card .restaurants__column--img {
     width: 100%;
-    height: 205px;
+    height: 174px;
+    -o-object-position: center;
+       object-position: center;
     align-self: stretch;
     display: flex;
     justify-content: center;
