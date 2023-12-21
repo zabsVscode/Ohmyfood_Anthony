@@ -629,6 +629,23 @@ header .header_location .header_icon-location {
   line-height: normal;
 }
 
+.fa-regular {
+  height: 33px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.fa-regular {
+  transition: all 1s ease-out;
+}
+
+.fa-regular:hover {
+  color: #FF69B4;
+  font-weight: 900;
+}
+
 .menu_column {
   width: 100%;
   display: inline-flex;
@@ -659,10 +676,9 @@ header .header_location .header_icon-location {
   border-color: #99E2D0;
 }
 .menu_column .entries_card {
-  width: 98%;
-  height: 72px;
-  padding-left: 10px;
-  align-items: flex-end;
+  width: 97%;
+  height: 59px;
+  padding: 9px;
   border-radius: 15.043px;
   background: var(--White, #FFF);
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
@@ -687,7 +703,7 @@ header .header_location .header_icon-location {
   display: flex;
   justify-content: space-between;
   padding-right: 10px;
-  padding-top: 20px;
+  padding-top: 12px;
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -716,9 +732,9 @@ header .header_location .header_icon-location {
   border-color: #99E2D0;
 }
 .menu_column .flat_card {
-  width: 98%;
-  height: 72px;
-  padding-left: 10px;
+  width: 97%;
+  height: 59px;
+  padding: 9px;
   border-radius: 15.043px;
   background: var(--White, #FFF);
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
@@ -755,7 +771,7 @@ header .header_location .header_icon-location {
   display: flex;
   justify-content: space-between;
   padding-right: 10px;
-  padding-top: 20px;
+  padding-top: 12px;
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -784,9 +800,9 @@ header .header_location .header_icon-location {
   border-color: #99E2D0;
 }
 .menu_column .desserts_card {
-  width: 98%;
-  height: 72px;
-  padding-left: 10px;
+  width: 97%;
+  height: 59px;
+  padding: 9px;
   border-radius: 15.043px;
   background: var(--White, #FFF);
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
@@ -825,7 +841,7 @@ header .header_location .header_icon-location {
   display: flex;
   justify-content: space-between;
   padding-right: 10px;
-  padding-top: 20px;
+  padding-top: 12px;
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -948,12 +964,12 @@ header .header_location .header_icon-location {
     width: 12%;
     gap: 12px;
     margin-left: 54.5%;
-    margin-top: -80px;
+    margin-top: -78px;
     position: absolute;
   }
   .menu_column .icon {
     opacity: 0;
-    height: 62px;
+    height: 80px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     display: flex;
@@ -966,14 +982,14 @@ header .header_location .header_icon-location {
   .menu_column .icon:hover {
     opacity: 1;
     width: 70px;
-    height: 75px;
+    height: 77px;
     gap: 12px;
     z-index: 3;
     background: #99E2D0;
     transform: translateX(0px);
   }
   .menu_column .icon_box--price {
-    margin-bottom: 6px;
+    margin-bottom: 13px;
     margin-right: -6px;
   }
   .menu_column .entries_card--secondtext .flat_card--secondtext .desserts_card--secondtext {
