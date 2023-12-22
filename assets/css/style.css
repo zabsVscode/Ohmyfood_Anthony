@@ -125,6 +125,12 @@ header .header_location {
   justify-content: center;
   align-items: center;
   gap: 17px;
+  color: var(--Grey, #353535);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   background: #EAEAEA;
 }
 header .header_location .header_icon-location {
@@ -154,7 +160,7 @@ header .header_location .header_icon-location {
   font-family: Roboto;
   font-size: 24px;
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 700;
   line-height: normal;
 }
 .search .search_text {
@@ -166,7 +172,7 @@ header .header_location .header_icon-location {
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 300;
   line-height: normal;
 }
 .search .search_button {
@@ -187,7 +193,7 @@ header .header_location .header_icon-location {
   cursor: pointer;
 }
 .search .search_buttontext {
-  width: 169px;
+  width: 180px;
   height: 24px;
   color: #FFFFFF;
   font-family: Roboto;
@@ -348,7 +354,7 @@ header .header_location .header_icon-location {
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 700;
   line-height: normal;
 }
 .restaurants .restaurant__column--location {
@@ -513,6 +519,12 @@ header .header_location .header_icon-location {
   height: 20px;
   color: #FFFFFF;
   text-decoration: none;
+  color: var(--White, #FFF);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .footer .footercontent .settingsiconfooter {
   width: 25px;
@@ -611,13 +623,14 @@ header .header_location .header_icon-location {
 
 .title_menu {
   width: 100%;
-  height: 47px;
+  height: 74px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 14px;
   position: absolute;
-  margin-top: -46px;
+  margin-top: -74px;
   background: #F6F6F6;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -654,8 +667,33 @@ header .header_location .header_icon-location {
   gap: 40px;
   background: #F6F6F6;
 }
-.menu_column .icon_box {
+.menu_column .icon {
   display: none;
+}
+.menu_column .icon_box {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 12%;
+  gap: 12px;
+  margin-left: 72.5%;
+  margin-top: -32px;
+}
+.menu_column .icon_box .icon_box--price {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin-bottom: 13px;
+  margin-right: -6px;
+  color: #353535;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15.043px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .menu_column .entries_menu {
   width: 90%;
@@ -691,10 +729,11 @@ header .header_location .header_icon-location {
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 500;
   line-height: normal;
 }
 .menu_column .entries_card .entries_card--secondtext {
@@ -707,10 +746,11 @@ header .header_location .header_icon-location {
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
   font-family: Roboto;
   font-size: 14.043px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 300;
   line-height: normal;
 }
 .menu_column .flat_menu {
@@ -747,10 +787,11 @@ header .header_location .header_icon-location {
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 500;
   line-height: normal;
 }
 .menu_column .flat_card .flat_card--price {
@@ -775,10 +816,11 @@ header .header_location .header_icon-location {
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
   font-family: Roboto;
   font-size: 14.043px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 300;
   line-height: normal;
 }
 .menu_column .desserts_menu {
@@ -815,10 +857,11 @@ header .header_location .header_icon-location {
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 500;
   line-height: normal;
 }
 .menu_column .desserts_card .desserts_card--price {
@@ -845,10 +888,11 @@ header .header_location .header_icon-location {
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
   font-family: Roboto;
   font-size: 14.043px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 300;
   line-height: normal;
 }
 
@@ -892,7 +936,7 @@ header .header_location .header_icon-location {
   }
   .menu_column {
     width: 75%;
-    height: 1000px;
+    height: 1116px;
     padding-top: 51px;
     padding-bottom: 54px;
     padding-left: 54px;
@@ -983,14 +1027,13 @@ header .header_location .header_icon-location {
     opacity: 1;
     width: 70px;
     height: 77px;
-    gap: 12px;
+    gap: 14px;
     z-index: 3;
     background: #99E2D0;
     transform: translateX(0px);
   }
   .menu_column .icon_box--price {
-    margin-bottom: 13px;
-    margin-right: -6px;
+    padding-right: 11px;
   }
   .menu_column .entries_card--secondtext .flat_card--secondtext .desserts_card--secondtext {
     z-index: 2;

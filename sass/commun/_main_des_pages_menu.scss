@@ -9,15 +9,16 @@
 
 .title_menu{
     width: 100%;
-    height: 47px;
+    height: 74px;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 
     gap: 14px;
     position: absolute;
 
-    margin-top: -46px;
+    margin-top: -74px;
     background: #F6F6F6;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -57,9 +58,39 @@
     gap: 40px;
     background:$second-color;
 
-    .icon_box {
+    .icon {
         display:none;
     }
+
+    .icon_box {
+        position: absolute;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: row;
+        width: 12%;
+        gap: 12px;
+        margin-left: 72.5%;
+        margin-top: -32px;
+
+        .icon_box--price {
+            display: flex;
+            width: 18px;
+            height:18px;
+            margin-bottom: 13px;
+            margin-right: -6px;
+    
+            color: #353535;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 15.043px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    
 
     .entries_menu {
         width:90%;
@@ -105,10 +136,11 @@
         color: #000;
         text-overflow: ellipsis;
         white-space: nowrap;
+        overflow: hidden;
         font-family: Roboto;
         font-size: 18px;
         font-style: normal;
-        font-weight: 1000;
+        font-weight: 500;
         line-height: normal;
         }
 
@@ -126,10 +158,11 @@
             color: #000;
             text-overflow: ellipsis;
             white-space: nowrap;
+            overflow: hidden;
             font-family: Roboto;
             font-size: 14.043px;
             font-style: normal;
-            font-weight: 800;
+            font-weight: 300;
             line-height: normal;
         }
 
@@ -179,10 +212,11 @@
         color: #000;
         text-overflow: ellipsis;
         white-space: nowrap;
+        overflow: hidden;
         font-family: Roboto;
         font-size: 18px;
         font-style: normal;
-        font-weight: 1000;
+        font-weight: 500;
         line-height: normal;
         }
 
@@ -215,10 +249,11 @@
             color: #000;
             text-overflow: ellipsis;
             white-space: nowrap;
+            overflow: hidden;
             font-family: Roboto;
             font-size: 14.043px;
             font-style: normal;
-            font-weight: 800;
+            font-weight: 300;
             line-height: normal;
         }
     }
@@ -267,10 +302,11 @@
             color: #000;
             text-overflow: ellipsis;
             white-space: nowrap;
+            overflow: hidden;
             font-family: Roboto;
             font-size: 18px;
             font-style: normal;
-            font-weight: 1000;
+            font-weight: 500;
             line-height: normal;
             }
         
@@ -305,10 +341,11 @@
             color: #000;
             text-overflow: ellipsis;
             white-space: nowrap;
+            overflow: hidden;
             font-family: Roboto;
             font-size: 14.043px;
             font-style: normal;
-            font-weight: 800;
+            font-weight: 300;
             line-height: normal;
             }
         }
@@ -370,7 +407,7 @@
 
     .menu_column {
         width: 75%;
-        height: 1000px;
+        height: 1116px;
         padding-top: 51px;
         padding-bottom: 54px;
         padding-left: 54px;
@@ -486,7 +523,7 @@
             opacity: 1;
             width: 70px;
             height: 77px;
-            gap:12px;
+            gap:14px;
             z-index:3;
 
             background:#99E2D0; 
@@ -495,8 +532,7 @@
         }
 
         .icon_box--price {
-            margin-bottom: 13px;
-            margin-right: -6px;
+            padding-right: 11px;
         }
 
         .entries_card--secondtext .flat_card--secondtext .desserts_card--secondtext {
