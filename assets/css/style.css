@@ -395,6 +395,29 @@ header .header_location .header_icon-location {
   display: block;
 }
 
+@media (min-width: 769px) {
+  .fonctionnement {
+    width: auto;
+    height: 128px;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 19px;
+    padding-right: 180px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    margin: 0;
+  }
+  .fonctionnement .fonctionnement__filter {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+  }
+  .fonctionnement .fonctionnement__filter--settings {
+    width: 39%;
+  }
+}
 @media (min-width: 1024px) {
   .search {
     padding-bottom: 33px;
