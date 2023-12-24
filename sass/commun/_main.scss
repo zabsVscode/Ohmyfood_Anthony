@@ -346,7 +346,7 @@ transition: all 1s ease-out;
     display:block;
 }
 
-@media  (min-width: 769px) {
+/*@media  (min-width: 769px) {
     .fonctionnement {
         width: auto;
         height: 128px;
@@ -370,7 +370,7 @@ transition: all 1s ease-out;
                 width:39%;
                 }    
         }
-}
+}*/
  
 
  @media (min-width: 1024px) {
@@ -395,30 +395,36 @@ transition: all 1s ease-out;
     
         
     
-        .fonctionnement {
-            width:1028px;
-            height:128px;
-    
-            display: flex;
-            padding: 50px 180px;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 25px;
+    .fonctionnement {
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding-right: 180px;
+        padding-left: 180px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-direction: column;
+        margin: 0;
+        gap: 25px;
+
+        .fonctionnement__filter {
+            width: 100%;
+            height: auto;
+            flex-wrap: wrap;
+            flex-direction: row;
             align-self: stretch;
-    
-            .fonctionnement__filter {
-                flex-direction: row;
-                .fonctionnement__filter--settings {
-                    width: 322.486px;
-                    height: 72.379px;
-                    flex-shrink: 0;
-                }
-                .fonctionnement_title {
-                    width: 275px;
-                    height: 31px;
-                    }
+
+            .fonctionnement__filter--settings {
+                width: 24%;
+                height: 72.379px;
+                flex-shrink: 0;
             }
-            
+        }
+    }
+
+    .fonctionnement_title {
+        width: 275px;
+        height: 31px;
         }
     
         .restaurants {

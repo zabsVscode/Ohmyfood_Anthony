@@ -395,29 +395,31 @@ header .header_location .header_icon-location {
   display: block;
 }
 
-@media (min-width: 769px) {
-  .fonctionnement {
-    width: auto;
-    height: 128px;
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 19px;
-    padding-right: 180px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 25px;
-    margin: 0;
-  }
-  .fonctionnement .fonctionnement__filter {
-    width: 100%;
-    flex-direction: row;
-    display: flex;
-  }
-  .fonctionnement .fonctionnement__filter--settings {
-    width: 39%;
-  }
-}
+/*@media  (min-width: 769px) {
+    .fonctionnement {
+        width: auto;
+        height: 128px;
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 19px;
+        padding-right: 180px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+        margin: 0;
+
+            .fonctionnement__filter {
+                width: 100%;
+                flex-direction: row;
+                display: flex;
+             }
+
+             .fonctionnement__filter--settings {
+                width:39%;
+                }    
+        }
+}*/
 @media (min-width: 1024px) {
   .search {
     padding-bottom: 33px;
@@ -434,24 +436,30 @@ header .header_location .header_icon-location {
     margin-top: 0;
   }
   .fonctionnement {
-    width: 1028px;
-    height: 128px;
+    width: 100%;
+    height: auto;
     display: flex;
-    padding: 50px 180px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     flex-direction: column;
-    align-items: flex-start;
+    margin: 0;
     gap: 25px;
-    align-self: stretch;
   }
   .fonctionnement .fonctionnement__filter {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
     flex-direction: row;
+    align-self: stretch;
   }
   .fonctionnement .fonctionnement__filter .fonctionnement__filter--settings {
-    width: 322.486px;
+    width: 24%;
     height: 72.379px;
     flex-shrink: 0;
   }
-  .fonctionnement .fonctionnement__filter .fonctionnement_title {
+  .fonctionnement_title {
     width: 275px;
     height: 31px;
   }
