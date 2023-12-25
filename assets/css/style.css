@@ -509,7 +509,7 @@ header .header_location .header_icon-location {
     height: 31px;
   }
   .restaurants {
-    width: 80%;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -620,7 +620,7 @@ header .header_location .header_icon-location {
   }
   .footer .footer_title {
     width: 137.582px;
-    height: 27px;
+    height: 20px;
     flex-shrink: 0;
     color: var(--White, #FFF);
     font-family: Shrikhand;
@@ -633,9 +633,6 @@ header .header_location .header_icon-location {
     flex-direction: row;
     width: auto;
   }
-  .footer .footercontent .width168px {
-    width: 168px;
-  }
   .footer .footercontent .footercontent {
     display: flex;
     flex-direction: row;
@@ -645,6 +642,12 @@ header .header_location .header_icon-location {
     display: flex;
     height: 20px;
     gap: 11px;
+  }
+  .footer .footercontent .width187px {
+    width: 187px;
+  }
+  .footer .footercontent .marginright {
+    margin-right: 29px;
   }
   .footer .footercontent .settingsiconfooter {
     width: 11px;
@@ -1058,7 +1061,9 @@ header .header_location .header_icon-location {
     animation-fill-mode: none;
   }
   .menu_column .title_menu {
-    width: 84%;
+    width: 75%;
+    padding-left: 54px;
+    padding-right: 54px;
     height: 51px;
     flex-shrink: 0;
     display: flex;

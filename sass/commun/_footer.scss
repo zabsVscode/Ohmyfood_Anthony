@@ -78,7 +78,7 @@
 
         .footer_title {
             width: 137.582px;
-            height: 27px;
+            height: 20px;
             flex-shrink: 0;
 
             color: var(--White, #FFF);
@@ -94,9 +94,8 @@
         width: auto;
 
 
-            .width168px {
-                width:168px;
-            }
+           
+           
         
 
             .footercontent{
@@ -105,10 +104,19 @@
             gap: 15px;
             }
 
+
             .footer_tab {
                 display: flex; 
                 height: 20px; 
                 gap:11px;
+            }
+
+            .width187px {
+                width:187px;
+            }
+
+            .marginright {
+                margin-right:29px;
             }
     
             .settingsiconfooter {
