@@ -395,10 +395,75 @@ header .header_location .header_icon-location {
   display: block;
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1415px) {
+  .fonctionnement {
+    width: 94%;
+    height: auto;
+    display: flex;
+    padding-left: 43px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    margin: 0;
+    gap: 25px;
+  }
+  .fonctionnement .fonctionnement__filter {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: stretch;
+  }
+  .fonctionnement .fonctionnement__filter .fonctionnement__filter--settings {
+    width: 30%;
+    height: 72.379px;
+    flex-shrink: 0;
+    gap: 8px;
+  }
+  .fonctionnement .fonctionnement__filter .fonctionnement__filter--text {
+    font-size: 15px;
+  }
+  .fonctionnement_title {
+    width: 275px;
+    height: 31px;
+  }
+  .restaurants {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 2px;
+  }
+  .restaurants .restaurants__column {
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    padding-top: 23px;
+    padding-left: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+  }
+  .restaurants .restaurants__column .restaurants__column--card {
+    width: 100%;
+    height: 236px;
+  }
+  .restaurants .restaurants__column .restaurants__column--card .restaurants__column--img {
+    height: 154px;
+  }
+  .restaurants .restaurants__column .settingsheart {
+    height: auto;
+  }
+}
+@media (min-width: 1416px) {
   .main-container {
     width: 100%;
-    max-width: 1440px;
     padding: 0;
     margin: 0;
   }
@@ -444,6 +509,7 @@ header .header_location .header_icon-location {
     height: 31px;
   }
   .restaurants {
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -451,7 +517,7 @@ header .header_location .header_icon-location {
     padding-bottom: 30px;
     padding-top: 30px;
     padding-right: 180px;
-    padding-left: 139px;
+    padding-left: 142px;
     align-self: stretch;
   }
   .restaurants .restaurants__title {
