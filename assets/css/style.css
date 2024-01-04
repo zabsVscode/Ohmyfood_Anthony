@@ -182,6 +182,7 @@ header .header_location .header_icon-location {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
   margin-top: 3%;
   border-radius: 25px;
   background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -196,6 +197,7 @@ header .header_location .header_icon-location {
   width: 180px;
   height: 24px;
   color: #FFFFFF;
+  text-decoration: none;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
