@@ -101,18 +101,16 @@
         margin-right:20px;
 
     .fonctionnement_title {
-        width: 328px;
         height: 31px;
-       
-
         color: #000;
-
-    /* Section Title */
         font-family: Roboto;
         font-size: 24px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
 
     }
 
@@ -184,6 +182,9 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
 
     }
     
@@ -195,20 +196,19 @@
     
 
     .restaurants__title {
-        width: 307px;
-        height: 13px;
+        height: 28px;
         flex-shrink: 0;
         padding-top: 23px;
         padding-left: 23px;
-    
-        color: $basic-color;
-    
-        
+        color: #000;
         font-family: Roboto;
         font-size: 24px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .restaurants__column {
@@ -302,6 +302,9 @@
             font-style: normal;
             font-weight: 700;
             line-height: normal;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis
         }
 
         .restaurant__column--location {
@@ -320,15 +323,13 @@
  }
 
  .settingsheart {
-    width: 91%;
     height: 21px;
     position: absolute;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    left: 87%;
+    bottom: 25%;
     font-size: larger;
     cursor: pointer;
-    
 }
 
 .settingsheart .fa-regular {
@@ -418,6 +419,12 @@ transition: all 1s ease-out;
 
             .settingsheart {
                 height:auto;
+                position: absolute;
+                display: flex;
+                left: 87%;
+                bottom: 17%;
+                font-size: larger;
+                cursor: pointer;
             }
 
             
@@ -495,12 +502,11 @@ transition: all 1s ease-out;
             padding-bottom: 30px;
             padding-top: 30px;
             padding-right: 180px;
-            padding-left: 142px;
+            padding-left: 135px;
             align-self: stretch;
     
             .restaurants__title {
-                padding-top:0;
-                padding-left: 32px;
+                width: 268.718px;
             }
     
             .restaurants__column {
@@ -513,7 +519,8 @@ transition: all 1s ease-out;
                 display: flex;
                 flex-direction: row;
             
-                align-items: flex-start;
+                align-items: center;
+                justify-content: center;
                 gap: 100px;
                 align-self: stretch;
     
@@ -529,6 +536,16 @@ transition: all 1s ease-out;
     
                 display: flex;
                 flex-direction: column;
+
+                .settingsheart {
+                height: 21px;
+                position: absolute;
+                display: flex;
+                left: 87%;
+                bottom: 19%;
+                font-size: larger;
+                cursor: pointer;
+                }
     
                 .restaurants__column--img {
                     width: 100%;
