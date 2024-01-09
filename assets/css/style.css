@@ -264,7 +264,7 @@ header .header_location .header_icon-location {
 }
 .fonctionnement .fonctionnement__filter--text {
   width: 211px;
-  height: 15.67px;
+  height: 17.67px;
   color: #000;
   font-family: Roboto;
   font-size: 16px;
@@ -800,6 +800,14 @@ header .header_location .header_icon-location {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.menu_column .entries_menu_height360px {
+  width: 90%;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
 }
 .menu_column .entries_menu {
   width: 90%;

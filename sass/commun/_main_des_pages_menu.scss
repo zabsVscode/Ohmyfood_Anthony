@@ -91,7 +91,15 @@
         }
     }
 
-    
+    .entries_menu_height360px {
+        width:90%;
+        height:360px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;  
+    }
 
     .entries_menu {
         width:90%;
